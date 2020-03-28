@@ -3,7 +3,7 @@
     <Navbar :currentTab.sync="currentTab" />
     <div class="container">
       <CustomInput @searchItem="searchItem" />
-      <component v-if="loading" :items="items" :currentTab="currentTab" :is="currentTab"></component>
+      <component v-if="loading" :items="items" :is="currentTab"></component>
       <div v-else-if="error">
         Some error
       </div>

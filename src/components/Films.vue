@@ -30,9 +30,6 @@ export default {
   props: {
     items: {
       type: Array
-    },
-    currentTab: {
-      type: String
     }
   },
   computed: {
